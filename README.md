@@ -10,6 +10,10 @@ Usage of tcpsink:
       host to listen on (default "localhost")
   -p string
     	prefix for logging (default "tcpsink: ")
+  -v int
+      verbosity level (default 0)
+  -s string
+      remove lines including `string`
 ```
 
 To build docker image:
